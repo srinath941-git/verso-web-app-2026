@@ -12,7 +12,7 @@ public class InputExample {
         // Get string input
         System.out.print("Enter some text: ");
         String text = input.next();
-        System.out.println("Text entered: " + text);
+        System.out.println("Hello: " + text);
 
         input.close(); // Close the scanner object
     }
